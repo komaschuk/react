@@ -1,0 +1,33 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table tr {
+  height: 60px;
+  border-bottom: 1px solid #000;
+}
+
+.table thead tr {
+  border-bottom: none;
+}
+
+.table th {
+  text-align: left;
+  background-color: #ececec;
+}
+
+.table th,
+.table td {
+  padding: 0 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  padding-bottom: 20px;
+  margin: 30px auto;
+  border: 1px solid #000;
+}

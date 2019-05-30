@@ -1,0 +1,41 @@
+.container {
+  /* max-width: 400px; */
+  border: 2px solid #000;
+  background-color: #fff;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.item {
+  display: inline-block;
+  width: 50%;
+  height: 60px;
+  padding: 20px 0;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.item:first-child {
+  border-right: 1px solid #000;
+}
+
+.active {
+  composes: item;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.signIn,
+.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}

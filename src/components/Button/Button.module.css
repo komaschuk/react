@@ -1,0 +1,30 @@
+.btn {
+  outline: none;
+  border: 0;
+  background-color: #000;
+  color: #fff;
+  padding: 11px 17px;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.btnLight {
+  outline: none;
+  border: 0;
+  background-color: #fff;
+  color: #000;
+  padding: 11px 17px;
+  margin: 0 5px;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.btnDelete {
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  cursor: pointer;
+  margin-left: 10px;
+}

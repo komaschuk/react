@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #0000009c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal {
+  position: relative;
+  width: 400px;
+  min-height: 250px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.modalText {
+  padding: 16px;
+}
+
+.btn {
+  composes: btnDelete from '../Button/Button.module.css';
+  position: absolute;
+  bottom: 100%;
+  left: 100%;
+  font-size: 18px;
+  margin: 0 5px;
+  z-index: 1000;
+  color: #fff;
+}
